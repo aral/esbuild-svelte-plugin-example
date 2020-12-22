@@ -1,0 +1,16 @@
+{
+  "name": "svelte-esbuild-plugin",
+  "version": "1.0.0",
+  "description": "An implementation of the sample esbuild svelte plugin code at https://esbuild.github.io/plugins/#svelte-plugin",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["esbuild", "svelte", "plugin"],
+  "contributors": ["Evan Wallace", "Aral Balkan"],
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.8.26",
+    "svelte": "^3.31.0"
+  }
+}
