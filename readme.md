@@ -29,7 +29,7 @@ Calm down, this is just a simple example :)
 
 See the [esbuild `serve` API](https://esbuild.github.io/api/#serve) for one way to implement a watcher.
 
-In a nutshell, to use it, you would modify the `build` call to a `serve` call in `build.js`:
+In a nutshell, to use it, you would modify the `build` call to a `serve` call in `build.js` and pass the build options as the second object:
 
 ```js
 require('esbuild').serve({}, {
